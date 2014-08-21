@@ -1,7 +1,9 @@
-Game Room Activity
+Mail Notifier
 ==================
-Shows if people are playing table tennis in the game room of building 8 in SB.  You no longer need to waste time walking over to play table tennis, when there is already a group of people in the middle of a game!
+Let's you know if there is mail in your box.
 
-Deployed: http://gameroom8.herokuapp.com/
+Deployed: http://mailnotifier.herokuapp.com/
 
-For more information, check out: https://podio.com/citrix/internet-of-things/apps/projects/items/3
+Created by Shervin & Yogesh
+
+For more information, check out: https://podio.com/citrix/internet-of-things/
