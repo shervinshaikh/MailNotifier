@@ -1,10 +1,20 @@
-<h3 class="roboto-title">MAIL NOTIFIER</h3>
-<h4 class="roboto-subtitle"></h4>
+<div class="row text-center not">
+  <div ng-show="isThereMail">
+    <img src="images/MailIcon.png" alt="Someone is playing"></img>
+    <p>You've got mail!</p>
+  </div>
 
-<img src="images/GameOn.gif" alt="Someone is playing" ng-show="isThereMail"></img>
-<img src="images/Free.png" alt="Table is Free" ng-hide="isThereMail"></img>
+  <div ng-hide="isThereMail">
+    <img src="images/NoMailIcon.png" alt="Table is Free"></img>
+    <p class="roboto-title">Sorry, No mail :(</p>
+  </div>
 
-<br/>
-<div class="footer roboto">
-  <p>Created by Shervin Shaikh (Intern) and Yogesh Moorjani.</p>
+  
+</div>
+
+<h3 class="roboto-title"></h3>
+<h4 class="roboto-subtitle">The Mail Project</h4>
+
+<div class="roboto">
+  <p>Built by Shervin Shaikh & Yogesh Moorjani <br/> in 3 hrs!</p>
 </div>

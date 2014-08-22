@@ -14,6 +14,10 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 //     background-color: #F78181;
 // }
 
+body {
+    background-color: #EEEAE4
+}
+
 .submit-yo {
     background: #C6A0D5;
 }
@@ -22,19 +26,24 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     background: #9B59B9;
 }
 
+.not {
+    margin-top: 100px;
+}
+
 .roboto-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: #CCCCCC;
+    font-size: 50px;
+    color: #666666;
+    padding: 40px;
     text-align: center;
 }
 
 .roboto-subtitle {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: #545454;
+    font-size: 40px;
+    color: #666666;
     text-align: center;
-    // padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .roboto-f-subtitle {
@@ -53,6 +62,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 .roboto {
     font-family: 'Roboto', sans-serif;
+    color: #969696;
+    font-size: 20px;
     text-align: center;
 }
 
